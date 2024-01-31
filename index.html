@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Ghost's Site</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+    </head>
+    <body>
+        <h2 id="heading">What Do You Want To Do?</h2>
+        <br>
+        <img id="img1" src="https://st4.depositphotos.com/5477854/26726/v/450/depositphotos_267261656-stock-illustration-vector-yellow-considering-face-with.jpg">
+        <br>
+        <br>
+        <div id="Maths solver">
+            <h3 id="maths">Maths Calculator</h3>
+            <label id="justhere">Click This To Go : </label>
+            <button id="btn1" class="btn btn-danger" onclick="goMaths()">Open A Maths Calculator</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="About Me">
+            <h3 id="info">Want To Know More About Me??</h3>
+            <label id="me">Click This To Open My Introduction Site</label>
+            <button id="btn2" class="btn btn-primary" onclick="goIntro()">Open My Introduction Site</button>            
+        </div>
+        <div id="Multiply Calculator">
+            <h3 id="multi">Calculate Multiplication and Division</h3>
+            <label id="calculator">Click this to Go to Calculator</label>
+            <button id="btn3" class="btn btn-danger" onclick="goCal()">Open The Calculator</button>
+        </div>
+    </body>
+</html>
